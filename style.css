@@ -1,0 +1,142 @@
+header
+{
+    width: 100%;
+    height: 150px;
+    background-color: rgba(202, 14, 117, 0.726);
+    border: 5px groove  rgba(128, 18, 64, 0.596);
+}
+.header_solo
+{
+    width: 100%;
+    height: 130px;
+    padding: 0 0 0 0;
+    max-width:  960px;
+    margin: 0 auto 0 auto;
+}
+.text_header
+{
+    font-family: cursive;
+    color:rgb(39, 17, 2);
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+}
+
+#logo
+{
+    margin-top: 23px;
+    width: 185px;
+    height: 100px;
+    background: url(http://pa1.narvii.com/6939/c27c2f6d6a6ed8e90d430d7475723a8ce380630cr1-320-108_00.gif) no-repeat scroll center ;
+    float: left;
+	margin-right: 50px;
+}
+
+
+#name {
+    padding:  0 0 0 0;
+    float:  left;
+}
+
+#name h1 {
+    height:  100%;
+    line-height: 60px;
+    margin-top: 25px;
+}
+
+
+
+.menu a {
+    display: inline-block;
+    text-decoration: none;
+    font-family: cursive;
+    letter-spacing: 2px;
+    position: relative;
+    padding-bottom: 15px;
+    margin: 0 20px 0 16px;
+    font-weight: 800;
+    font-size: 20px;
+    color: rgb(44, 18, 2);
+
+}
+
+
+body{
+    text-align: center;
+    margin-bottom: 0;
+    background: rgb(90, 3, 37);
+    font-family: cursive;
+    font-size: 14px;
+    font-weight: 200;
+    padding: 2px 1em 0 1em;
+}
+
+
+a
+{
+    color: rgb(141, 64, 192);
+
+}
+nav {
+    width: 960px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+nav ul {
+    display: inline-block;
+    
+}
+
+nav li {
+    float:left;
+}
+
+ul{
+    list-style: none;
+    text-align:left;
+}
+
+ol{
+    display:inline-table;
+}
+
+li{
+    margin-bottom: 4px;
+    text-align:left;
+}
+table{
+    width: 100%;
+    font-family: cursive;
+}
+table,th,td{
+    border: 1px solid rgb(87, 8, 54);
+    border-color: rgba(36, 7, 13, 0.842);
+    text-align: center;
+    height:50px;
+}
+tr:nth-child(odd)
+{
+    background: rgba(13, 131, 121, 0.705);
+    padding: 4px;
+}
+
+tr:nth-child(even)
+{
+    background: rgba(51, 214, 160, 0.589);
+    padding: 4px;
+}
+footer
+{
+    height: 30px;
+    width:  100%;
+    background-color: rgba(41, 42, 52, 0.226);
+    border: 5px groove  rgba(87, 86, 86, 0.281);
+}
+.equal{
+    padding: 3px;
+    max-width: 960px;
+    margin: 10px auto;
+    height: auto;
+    background-color: rgb(213, 188, 228);
+}
